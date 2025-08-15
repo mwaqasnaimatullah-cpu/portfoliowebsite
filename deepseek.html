@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Pro | YouTube Thumbnail Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="deepseek.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Thumbnail<span>Pro</span></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Crafting <span>Click-Worthy</span> YouTube Thumbnails</h1>
+                <p class="hero-subtitle">I design thumbnails that boost your CTR and make your videos stand out</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="thumbnail-showcase">
+                    <img src="thumbnail.webp" alt="Thumbnail Design" class="active">
+                    <img src="thumbnail2.webp" alt="Thumbnail Design">
+                    <img src="thumbnail3.webp" alt="Thumbnail Design">
+                </div>
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span>Thumbnail</span> Portfolio</h2>
+                <p class="section-subtitle">Here are some of my best thumbnail designs that helped creators get more views</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="gaming">Gaming</button>
+                <button class="filter-btn" data-filter="tech">Tech</button>
+                <button class="filter-btn" data-filter="vlog">Vlog</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <img src="thubnail4.jfif" alt="">
+                <img src="thumbail6.jfif" alt="">
+                <img src="thumbaile2.jfif" alt="">
+                <img src="thumbanile1.jfif" alt="">
+                <img src="thumbanilv3.jfif" alt="">
+                <img src="thumbanilv2.jfif" alt="">
+                <img src="thumbanilt2.jfif" alt="">
+                <img src="thumbanilt1.jfif" alt="">
+                <img src="thumbnail5.jfif" alt="">
+                <img src="thumbnail6.jfif" alt="">
+                <!-- Portfolio items will be added dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span>Services</span></h2>
+                <p class="section-subtitle">What I can do for your YouTube channel</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Custom Thumbnail Design</h3>
+                    <p>Unique, eye-catching thumbnails tailored to your brand and video content.</p>
+                    <div class="service-badge">Most Popular</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Branded Template Pack</h3>
+                    <p>Get a set of editable templates matching your channel's branding.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>CTR Optimization</h3>
+                    <p>Analysis and redesign of existing thumbnails to improve click-through rate.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>Monthly Thumbnail Package</h3>
+                    <p>Regular thumbnail designs for your upload schedule at discounted rates.</p>
+                    <div class="service-badge">Best Value</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="images/profile.jpg" alt="Thumbnail Designer">
+                <div class="about-badge">
+                    <span>500+</span>
+                    <p>Thumbnails Designed</p>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="section-header">
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <p class="section-subtitle">Professional YouTube Thumbnail Designer</p>
+                </div>
+                <p>Hi, I'm Alex! I specialize in creating high-converting YouTube thumbnails that help creators grow their channels. With over 5 years of experience in graphic design and digital marketing, I understand what makes thumbnails clickable.</p>
+                
+                <div class="skills">
+                    <div class="skill-item">
+                        <h4>Photoshop <span>95%</span></h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Illustrator <span>85%</span></h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>After Effects <span>75%</span></h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>CTR Analysis <span>90%</span></h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client <span>Testimonials</span></h2>
+                <p class="section-subtitle">What my clients say about my work</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Alex's thumbnails increased my CTR from 4% to 9% in just two months! His designs perfectly capture the essence of my videos while being incredibly clickable.</p>
+                        <div class="client-info">
+                            <img src="images/clients/client1.jpg" alt="Client">
+                            <div>
+                                <h4>Mark Johnson</h4>
+                                <span>Tech Reviewer (1M subs)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Working with Alex has been a game-changer for my channel. His thumbnails have a unique style that stands out in search results and suggested videos.</p>
+                        <div class="client-info">
+                            <img src="images/clients/client2.jpg" alt="Client">
+                            <div>
+                                <h4>Sarah Miller</h4>
+                                <span>Gaming Channel (500K subs)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p class="section-subtitle">Ready to boost your CTR? Let's talk!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>hello@thumbnailpro.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Location</h4>
+                            <p>Los Angeles, CA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">Thumbnail<span>Pro</span></a>
+                    <p>Professional YouTube thumbnail design services to help your channel grow and stand out from the competition.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Custom Thumbnails</a></li>
+                        <li><a href="#">Template Packs</a></li>
+                        <li><a href="#">CTR Optimization</a></li>
+                        <li><a href="#">Monthly Packages</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for thumbnail design tips and special offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 ThumbnailPro. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="deepseek.js"></script>
+</body>
+</html>
